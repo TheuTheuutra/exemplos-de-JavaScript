@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 11</title>
+</head>
+<body>
+    <script>
+        //procedimento só executa o que está dentro do seu corpo
+        //procedimento básico
+        function bar(){
+            alert("Olá mundo");
+        }
+        //procedimento sem parâmetro com prompt
+        function soma(){
+            var v1=parseInt(prompt("Digite um valor"));
+            var v2=parseInt(prompt("Digite outro valor"));
+            var t = v1+v2;
+            alert("O resultado é "+t);
+        }
+        //Função ela retorna valores para o nome da função
+        //precisa da instrução return
+        //função com parâmetro
+        function soma2(x,y){
+            return x+y;
+        }
+        //chamda das funções
+        bar();
+        bar();
+        soma();
+
+        var v1=parseInt(prompt("Digite um valor"));
+        var v2=parseInt(prompt("Digite outro valor"));
+        alert("O resultado da soma 2 é "+soma2(v1,v2));
+    </script>
+</body>
+</html>
