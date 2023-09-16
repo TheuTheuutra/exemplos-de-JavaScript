@@ -5,7 +5,7 @@ function celsius()
     
 }
 
-function fa()
+function fahrenheit()
 {
     var valor = parseFloat (document.getElementById('valor').value);
     document.getElementById('resultado').innerHTML = valor;
