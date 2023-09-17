@@ -1,13 +1,15 @@
 function celsius()
 {
-    var valor = parseFloat (document.getElementById('valor').value);
-    document.getElementById('resultado').innerHTML = valor;
+    var graus = parseFloat(document.getElementById('graus').value);
+    conversao = graus*1.8+32
+    document.getElementById('resultado').innerHTML = conversao;
     
 }
 
 function fahrenheit()
 {
-    var valor = parseFloat (document.getElementById('valor').value);
-    document.getElementById('resultado').innerHTML = valor;
+    var graus = parseFloat (document.getElementById('graus').value);
+    conversao = (graus-32)/1.8
+    document.getElementById('resultado').innerHTML = conversao;
     
 }
